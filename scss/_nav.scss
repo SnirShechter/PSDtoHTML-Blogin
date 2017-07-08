@@ -1,0 +1,30 @@
+.nav-container{
+    border-bottom: 6px solid #181818;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width:980px;
+    display: flex;
+    height:130px;
+    justify-content: space-between;
+    font-weight: Bold;
+    ul{
+        display: flex;
+        color:white;
+        text-align: center;
+        line-height: 130px;
+        &:not(:first-child) li{
+            border-left: 1px solid #181818;
+            border-right: 1px solid #181818;
+            width:em(130px);
+            /*This is the marked nav li */
+        }
+    }
+    li.checked{
+        margin-bottom: -6px;
+        border-bottom: 6px solid #58ca38;
+        color:#58ca38;
+    }
+}
