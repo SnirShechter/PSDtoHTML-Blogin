@@ -1,5 +1,5 @@
-# PSD To HTML
-## Blogin
+# PSD To HTML 
+*Blogin*
 
 ### Introduction
 This is a PSD to HTML project using SCSS and the 7 - 1 pattern.
